@@ -1,0 +1,97 @@
+/* Import Lato from Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body {
+    margin: 0 auto;
+    padding:0;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    /* align-items: center; */
+    min-height: 100vh;
+}
+
+/* Main recipe card */
+main {
+    position: relative;
+    width: 850px;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    background: url('images/food-image-bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+/* Recipe title */
+h1 {
+    position: absolute;
+    top: 35px;
+    left: 350px;
+    margin: 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* Recipe information */
+.recipes-info {
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    /* margin-left: 45%; */
+}
+
+.recipes-info p {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+
+.recipes-info span {
+    color: #b5c640;
+}
+
+/* Ingredients button */
+.btn-primary {
+    position: absolute;
+    top: 65px;
+    left: 220px;
+    padding: 5px 15px;
+    border: 1.5px solid #ffffff;
+    border-radius: 20px;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.btn-primary:hover {
+    background-color: #b5c640;
+    border-color: #b5c640;
+}
+
+/* Preparation instructions */
+.prep-steps {
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.step {
+    margin-bottom: 16px;
+    color: #e5e5e5;
+    font-size: 12px;
+    /* line-height: 18px; */
+}
